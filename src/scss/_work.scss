@@ -1,0 +1,43 @@
+.work {
+  .work-title {
+    h2 {
+      color: orangered;
+      font-size: 2rem;
+      font-weight: bold;
+    }
+    p {
+      font-weight: bold;
+      font-size: 18px;
+    }
+  }
+  .card {
+    border: solid;
+    border-radius: 10px;
+    border-color: white;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    margin: 2rem;
+    padding: 2rem;
+    i {
+      color: steelblue;
+      font-size: 50px;
+      padding-bottom: 1rem;
+    }
+    h5 {
+      font-size: 30px;
+      padding-bottom: 1rem;
+    }
+    p {
+      font-size: 16px;
+    }
+    button {
+      border: steelblue;
+      background-color: steelblue;
+      color: white;
+      border-radius: 30px;
+      width: 150px;
+
+      padding-top: 10px;
+      padding-bottom: 10px;
+    }
+  }
+}

@@ -1,0 +1,435 @@
+header {
+  position: relative;
+}
+
+header .top-bar {
+  background-color: #5b7fbd;
+  width: 100%;
+  height: 40px;
+  padding-top: 5px;
+  color: white;
+}
+
+header .nav-bar {
+  position: absolute;
+  width: 100%;
+}
+
+.mail-box {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+}
+
+.mail-box i {
+  padding-right: 10px;
+  padding-top: 5px;
+}
+
+.language {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.language i {
+  padding-right: 10px;
+  padding-top: 5px;
+}
+
+.language p {
+  margin-right: 5px;
+}
+
+.social-icon i {
+  padding-top: 5px;
+  padding: 5px;
+}
+
+.mobile-box {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+}
+
+.mobile-box i {
+  padding-right: 10px;
+  padding-top: 5px;
+}
+
+.nav-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.nav-box p {
+  padding: 2rem;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.banner {
+  position: relative;
+}
+
+.banner .banner-img-holder img {
+  width: 100vw;
+  height: auto;
+}
+
+.banner .content-holder {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.rect-box {
+  border: solid;
+  border-radius: 5px;
+  border-color: white;
+  width: 80%;
+  margin: auto;
+  padding: 2rem 4rem;
+  margin-top: 2rem;
+  -webkit-box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+          box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  margin-bottom: 3rem;
+}
+
+.rect-box .box h5 {
+  color: #5b7fbd;
+  font-size: xx-large;
+  font-weight: bold;
+}
+
+.rect-box .box p {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.about-page h2 {
+  color: orangered;
+  font-size: 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.about-page p {
+  color: black;
+  font-size: 20px;
+  font-weight: 600;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 2rem;
+}
+
+.about-page .content-holder {
+  margin-right: 2rem;
+  margin-top: 6rem;
+}
+
+.about-page .content-holder p {
+  font-size: 16px;
+  font-family: sans-serif;
+  font-weight: 300;
+}
+
+.about-page .content-holder button {
+  border: solid;
+  border-radius: 30px;
+  background-color: #5b7fbd;
+  color: white;
+  font-weight: bold;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.about-page .img-box img {
+  margin-left: 2rem;
+  margin-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.work .work-title h2 {
+  color: orangered;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.work .work-title p {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.work .card {
+  border: solid;
+  border-radius: 10px;
+  border-color: white;
+  -webkit-box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+          box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  margin: 2rem;
+  padding: 2rem;
+}
+
+.work .card i {
+  color: steelblue;
+  font-size: 50px;
+  padding-bottom: 1rem;
+}
+
+.work .card h5 {
+  font-size: 30px;
+  padding-bottom: 1rem;
+}
+
+.work .card p {
+  font-size: 16px;
+}
+
+.work .card button {
+  border: steelblue;
+  background-color: steelblue;
+  color: white;
+  border-radius: 30px;
+  width: 150px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.Donate .content-holder h2 {
+  color: orangered;
+  font-size: 2rem;
+  font-weight: bold;
+  margin-top: 2rem;
+}
+
+.Donate .content-holder .amnt-box button {
+  border: solid;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 1rem;
+  border-width: thin;
+}
+
+.Donate .content-holder .button-info button {
+  border: solid;
+  border-color: #5b7fbd;
+  border-radius: 40px;
+  background-color: #5b7fbd;
+  color: white;
+  font-weight: bold;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-top: 1rem;
+}
+
+.farmer {
+  padding-top: 4rem;
+}
+
+.farmer .content-box h2 {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.farmer .img-box img {
+  margin-left: 2rem;
+}
+
+.farmer .img-box i {
+  font-size: 40px;
+}
+
+.founder {
+  margin-top: 3rem;
+}
+
+.founder .title-box h2 {
+  color: orangered;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.founder .title-box p {
+  font-size: 20px;
+  font-weight: thick;
+}
+
+.founder .img-box img {
+  margin-left: 4rem;
+}
+
+.founder .content-box p {
+  margin-top: 3rem;
+}
+
+.Testimonials .title-box h2 {
+  color: orangered;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.Testimonials .title-box p {
+  font-size: 20px;
+  font-weight: thick;
+}
+
+.container .card {
+  border: solid;
+  border-radius: 10px;
+  background-color: white;
+  -webkit-box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+          box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  padding: 1rem;
+  border-color: white;
+}
+
+.container .card i {
+  font-size: 50px;
+  color: #5b7fbd;
+  padding-bottom: 5px;
+}
+
+.gallery .title-box h2 {
+  color: orangered;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.gallery .title-box p {
+  font-size: 20px;
+  font-weight: thick;
+}
+
+.gallery .btn-box button {
+  border: solid;
+  border-color: #5b7fbd;
+  border-radius: 40px;
+  background-color: #5b7fbd;
+  color: white;
+  font-weight: bold;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-top: 1rem;
+}
+
+.help-box .title-box h2 {
+  color: orangered;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.help-box .contact-farm .box button {
+  border: solid;
+  border-color: white;
+  -webkit-box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+          box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  background-color: white;
+  color: black;
+  font-weight: bold;
+  font-size: 18px;
+  padding: 10px 10px;
+  padding-right: 1100px;
+  margin: 1rem;
+}
+
+.help-box .contact-farm .content-box button {
+  border: solid;
+  border-color: white;
+  -webkit-box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+          box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  background-color: white;
+  color: black;
+  font-size: 18px;
+}
+
+.help-box .contact-farm .content-box p {
+  color: black;
+  font-size: 16px;
+}
+
+.footer {
+  background-color: #292929;
+  margin-top: 5rem;
+}
+
+.footer .logo-box {
+  padding: 5rem;
+}
+
+.footer .social-icon {
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.Donate .content-holder h2 {
+  color: orangered;
+  font-size: 2rem;
+  font-weight: bold;
+  margin-top: 2rem;
+}
+
+.Donate .content-holder .amnt-box button {
+  border: solid;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 1rem;
+  border-width: thin;
+}
+
+.Donate .content-holder .button-info button {
+  border: solid;
+  border-color: #5b7fbd;
+  border-radius: 40px;
+  background-color: #5b7fbd;
+  color: white;
+  font-weight: bold;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-top: 1rem;
+}
+/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,28 @@
+.gallery {
+  .title-box {
+    h2 {
+      color: orangered;
+      font-size: 2rem;
+      font-weight: bold;
+    }
+    p {
+      font-size: 20px;
+      font-weight: thick;
+    }
+  }
+  .btn-box {
+    button {
+      border: solid;
+      border-color: #5b7fbd;
+      border-radius: 40px;
+      background-color: #5b7fbd;
+      color: white;
+      font-weight: bold;
+      padding-top: 10px;
+      padding-bottom: 10px;
+      padding-left: 15px;
+      padding-right: 15px;
+      margin-top: 1rem;
+    }
+  }
+}

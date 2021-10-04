@@ -1,0 +1,39 @@
+.help-box {
+  .title-box {
+    h2 {
+      color: orangered;
+      font-size: 2rem;
+      font-weight: bold;
+    }
+  }
+  .contact-farm {
+    .box {
+      button {
+        border: solid;
+        border-color: white;
+        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+        background-color: white;
+        color: black;
+        font-weight: bold;
+        font-size: 18px;
+        padding: 10px 10px;
+        padding-right: 1100px;
+        margin: 1rem;
+      }
+    }
+    .content-box {
+      button {
+        border: solid;
+        border-color: white;
+        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+        background-color: white;
+        color: black;
+        font-size: 18px;
+      }
+      p {
+        color: black;
+        font-size: 16px;
+      }
+    }
+  }
+}

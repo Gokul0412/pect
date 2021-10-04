@@ -1,0 +1,22 @@
+.rect-box {
+  border: solid;
+  border-radius: 5px;
+  border-color: white;
+  width: 80%;
+  margin: auto;
+  padding: 2rem 4rem;
+  margin-top: 2rem;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  margin-bottom: 3rem;
+  .box {
+    h5 {
+      color: #5b7fbd;
+      font-size: xx-large;
+      font-weight: bold;
+    }
+    p {
+      font-size: 18px;
+      font-weight: 500;
+    }
+  }
+}

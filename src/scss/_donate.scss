@@ -1,0 +1,37 @@
+.Donate {
+  .content-holder {
+    h2 {
+      color: orangered;
+      font-size: 2rem;
+      font-weight: bold;
+      margin-top: 2rem;
+    }
+
+    .amnt-box {
+      button {
+        border: solid;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        padding-left: 15px;
+        padding-right: 15px;
+        margin: 1rem;
+        border-width: thin;
+      }
+    }
+    .button-info {
+      button {
+        border: solid;
+        border-color: #5b7fbd;
+        border-radius: 40px;
+        background-color: #5b7fbd;
+        color: white;
+        font-weight: bold;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 15px;
+        padding-right: 15px;
+        margin-top: 1rem;
+      }
+    }
+  }
+}
